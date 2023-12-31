@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Student Search Form</legend>
+        <form action="">
+        <input type="search" name="" required size="50" placeholder="Enter Name For Search" ><br>
+        <label for="range">Select Age Range</label><br>
+        <input type="range" id="range" size="50" ><br>
+        <button type="button">Search</button>
+    </form>
+    </fieldset>
+    <fieldset>
+        <legend>Student Registration Form</legend>
+        <form action="">
+        <label for="name">Name:(Max 30 Characters)</label><br>
+        <input type="text" name="" size="50"  id="name" maxlength="30" placeholder="enter your name" required>
+        <br>
+        <label for="name">Father's Name:(Max 30 Characters)</label><br>
+        <input type="text" name="" id="name" size="50"  placeholder="enter your father's name" maxlength="30" required>
+        <br>
+        <label for="name">Mother's Name:(Max 30 Characters)</label><br>
+        <input type="text" name="" size="50"  placeholder="enter your mother's name" id="name" maxlength="30" required>
+        <br>
+        <label for="email">Email:</label><br>
+        <input type="email" name="" required placeholder="Enter your email" id="email" size="50" ><br>
+
+        <label for="email">Phone:</label><br>
+        <input type="tel" name="" placeholder="enter your number" size="50"  required id="email"><br>
+        <br>
+        <label for="">Address:</label><br>
+        <textarea name="" placeholder="Enter your address...." id="" cols="50" rows="10"></textarea><br><br>
+        <label for="country">Select Your country</label>
+        <select name="" id="country">
+            <option value="">Bangladesh</option>
+            <option value="">India</option>
+            <option value="">Palestine</option>
+            <option value="">Pakistan</option>
+        </select>
+        <br>
+        <input type="checkbox" id="drw">
+        <label for="drw">Drawing</label>
+        <input type="checkbox" id="fish">
+        <label for="fish">Fishing</label>
+        <input type="checkbox" id="read">
+        <label for="read">Reading</label>
+        <input type="checkbox" id="Ske">
+        <label for="Ske">Sketching</label>
+        <br>
+        <input type="radio" name="gender" id="male"> 
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female"> 
+        <label for="female">female</label>
+        <input type="radio" name="gender" id="other"> 
+        <label for="other">Others</label>
+        <br>
+        <label for="photo">Your Photo:</label><br>
+        <input type="file" id="photo"><br>
+        <label for="date">Enter Date of Birth:</label><br>
+        <input type="date">
+        <br>
+        <label for="age">Enter your Age:</label><br>
+        <input type="number" id="age" name="" placeholder="enter your age"><br>
+        <label for="color">Select your Favorite color:</label><br>
+        <input type="color" id="color"><br>
+        <label for="time">When do you wake up:</label><br>
+        <input type="time"  id="time"><br>
+        <label for="month_time">When do your want to participate in the interview</label><br>
+        <input type="datetime-local" id="month_time" size="50"  name=""><br>
+        <label for="fv_month">Enter your favorite month </label><br>
+        <input type="month" name="" size="50"  id="fv_month"><br>
+        <label for="pass">Enter your Password For Register</label><br>
+        <input type="password" placeholder="Enter your Password For Register" name="" size="50"  id="pass"><br>
+        <label for="url">Enter Facebook URL</label><br>
+        <input type="url" size="50" placeholder="Enter Facebook URL" name="" id="url"><br>
+        <br>
+        <button type="reset">reset</button>
+        <button type="submit">Submit</button>
+    </form>
+    </fieldset>
+    
+</body>
+</html>
